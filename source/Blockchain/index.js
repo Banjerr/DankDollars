@@ -1,5 +1,8 @@
 'use strict'
 
+import { Block } from '../Block';
+import { Transaction } from '../Transaction';
+
 class Blockchain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
